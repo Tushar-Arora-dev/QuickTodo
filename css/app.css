@@ -47,14 +47,16 @@ h1 span {
   border-radius: 8px;
   padding: 10px;
   width: 635px;
-
+  transition: border-color 0.25s;
   color: #f2f2f2;
 }
 
 #create-todo-input::placeholder {
   color: #808080;
 }
-
+#create-todo-input:focus {
+  border-color: #5e60ce;
+}
 #create-todo-button {
   font-size: 14px;
   padding: 11px;
